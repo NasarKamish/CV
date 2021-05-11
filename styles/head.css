@@ -1,0 +1,49 @@
+.head {
+  padding-right: 10%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 19px;
+  height: 5vh;
+  width: 100vw;
+  position: fixed;
+  background-color: var(--background-color);
+  border-bottom: solid;
+  border-color: var(--text-detail);
+  border-width: 100%;
+  transition: all 0.3s linear;
+}
+
+.name {
+  margin-right: 20px;
+  align-self: center;
+  color: var(--text-color);
+  transition: all 0.3s linear;
+}
+
+.name-span {
+  color: var(--text-detail);
+  transition: all 0.3s linear;
+}
+
+.Switch {
+  padding-left: 2%;
+  padding-right: 2%;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  border: var(--background-color);
+  transition: all 0.3s linear;
+}
+
+.Switch:hover {
+  color: var(--text-detail);
+  background-color: var(--background-color2);
+}
+
+@media (max-width: 400px) {
+  .name {
+    display: none;
+  }
+}

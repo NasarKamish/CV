@@ -1,0 +1,144 @@
+#About {
+  width: 100%;
+  background-color: var(--background-color);
+  transition: all 0.3s linear;
+  padding: 10%;
+}
+
+.About-border {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: double;
+  border-width: 50px;
+  border-color: var(--background-color2);
+  transition: all 0.3s linear;
+}
+
+.About-head {
+  color: var(--text-detail);
+  font-size: 40px;
+  transition: all 0.3s linear;
+}
+
+.About-container {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: row;
+  transition: all 0.3s linear;
+  padding-top: 3%;
+}
+
+.About-content {
+  width: 40%;
+  padding-bottom: 1%;
+}
+
+.About-details {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.About-content-head {
+  padding-bottom: 1%;
+  color: var(--text-detail);
+  padding-top: 1%;
+  transition: all 0.3s linear;
+}
+
+.About-link {
+  text-decoration: none;
+}
+
+.About-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.About-btn {
+  width: 150%;
+  height: 200%;
+  padding: 3%;
+  background-color: var(--background-color2);
+  color: var(--text-color);
+  transition: all 0.3s linear;
+  border: none;
+}
+
+.About-btn:hover {
+  color: var(--text-detail);
+}
+
+.About-detail {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3%;
+}
+
+.About-discription {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3%;
+}
+
+.About-p-head {
+  display: flex;
+  margin-right: 3%;
+  font-weight: 600;
+  color: var(--text-detail);
+  transition: all 0.3s linear;
+}
+
+.About-p-content {
+  color: var(--text-color);
+  transition: all 0.3s linear;
+}
+
+.About-left {
+  width: 60%;
+}
+
+.About-right {
+  width: 40%;
+}
+
+@media (max-width: 1400px) {
+  .About-detail {
+    flex-direction: column;
+    width: 100%;
+  }
+  .About-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .About-content {
+    width: 100%;
+  }
+  .About-p-content {
+    flex-direction: row;
+  }
+
+  .About-left {
+    width: 100%;
+  }
+
+  .About-right {
+    width: 100%;
+  }
+
+  .About-buttons {
+    flex-direction: column;
+  }
+
+  .About-link {
+    margin-bottom: 20%;
+  }
+}
+
+@media (max-width: 550px) {
+  .About-border {
+    border: none;
+  }
+}
