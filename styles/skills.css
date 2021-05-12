@@ -1,0 +1,128 @@
+#Skills {
+  background-color: var(--background-color);
+  transition: all 0.3s linear;
+  padding: 10%;
+}
+
+.Skills-container {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: double;
+  border-width: 50px;
+  border-color: var(--background-color2);
+  transition: all 0.3s linear;
+}
+
+.Skills-head {
+  color: var(--text-detail);
+  font-size: 40px;
+  transition: all 0.3s linear;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.card {
+  color: var(--text-color);
+  margin: 10px;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s linear;
+  z-index: 100%;
+}
+
+.card-icon {
+  font-size: 80px;
+  color: var(--text-color);
+  transition: all 0.3s linear;
+}
+
+.card-icon:hover {
+  color: var(--text-detail);
+  font-size: 90px;
+}
+
+.soft-skills-head {
+  color: var(--text-detail);
+  font-size: 30px;
+  transition: all 0.3s linear;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.soft-skills-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.soft-skills {
+  list-style-type: none;
+  color: var(--text-color);
+  transition: all 0.3s linear;
+  margin-bottom: 3%;
+}
+
+.tech-skills-head {
+  color: var(--text-detail);
+  font-size: 30px;
+  transition: all 0.3s linear;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.tech-skills-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-skills {
+  list-style-type: none;
+  color: var(--text-color);
+  transition: all 0.3s linear;
+  margin-bottom: 3%;
+}
+
+.soft-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-content {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 550px) {
+  .Skills-container {
+    border: none;
+  }
+  .skills-content {
+    flex-direction: column;
+  }
+}

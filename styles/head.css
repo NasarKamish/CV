@@ -42,6 +42,12 @@
   background-color: var(--background-color2);
 }
 
+@media (max-width: 600px) {
+  .head {
+    height: 7vh;
+  }
+}
+
 @media (max-width: 400px) {
   .name {
     display: none;

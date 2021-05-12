@@ -1,0 +1,24 @@
+#Projects {
+  background-color: var(--background-color2);
+  transition: all 0.3s linear;
+  padding: 10%;
+}
+
+.projects-border {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: double;
+  border-width: 50px;
+  border-color: var(--background-color);
+  transition: all 0.3s linear;
+}
+
+.projects-head,
+.python-head,
+.Html-head {
+  color: var(--text-detail);
+  font-size: 40px;
+  transition: all 0.3s linear;
+}

@@ -34,7 +34,7 @@ body.Dark-Theme {
   position: fixed;
   top: -100%;
   width: 100vw;
-  height: 50vh;
+  height: 60vh;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
@@ -72,4 +72,10 @@ body.Dark-Theme {
 
 .navbar-anchor:hover {
   color: var(--background-color);
+}
+
+@media (max-width: 600px) {
+  .navbar-button {
+    font-size: 20px;
+  }
 }
