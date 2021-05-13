@@ -48,6 +48,10 @@
   transition: all 0.3s linear;
 }
 
+.Passion-list {
+  list-style-type: none;
+}
+
 .About-link {
   text-decoration: none;
 }

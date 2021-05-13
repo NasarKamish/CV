@@ -15,10 +15,182 @@
   transition: all 0.3s linear;
 }
 
+.projects-head {
+  margin-bottom: 2%;
+}
+
 .projects-head,
 .python-head,
 .Html-head {
   color: var(--text-detail);
   font-size: 40px;
   transition: all 0.3s linear;
+}
+
+/* Python */
+
+.py-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.py-card {
+  width: 20vw;
+  height: 20vh;
+  position: relative;
+  margin: 5%;
+  transition: all 0.3s linear;
+}
+
+.py-card:hover .overlay {
+  opacity: 0.8;
+}
+
+.python {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Temp-Converter-p {
+  background-image: url(../images/Temp-conver.png);
+  background-size: cover;
+}
+
+.Adding-2-numbers-p {
+  background-image: url(../images/Adding-2-numbers.png);
+  background-size: cover;
+}
+
+/* Html */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s linear;
+}
+
+.Html {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.html-card:hover .overlay {
+  opacity: 0.8;
+}
+
+.Html-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.html-card {
+  width: 20vw;
+  height: 20vh;
+  position: relative;
+  margin: 5%;
+  transition: all 0.3s linear;
+}
+
+.contact-form-p {
+  background-image: url(../images/Contact-form.png);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.my-projects-p {
+  background-image: url(../images/Projects.png);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.owl-carousel-p {
+  background-image: url(../images/Testimonials.png);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.timeline-p {
+  background-image: url(../images/Timeline.png);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.card-head {
+  color: var(--text-detail);
+  transition: all 0.3s linear;
+  margin-bottom: 5%;
+}
+
+.card-discription {
+  color: var(--text-color);
+  transition: all 0.3s linear;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card-buttons {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.card-button {
+  color: var(--text-color);
+  padding: 40%;
+  margin-top: 1%;
+  background-color: var(--background-color2);
+  font-weight: 600;
+  transition: all 0.3s linear;
+}
+
+.card-button:hover {
+  color: var(--text-detail);
+}
+
+@media (max-width: 1400px) {
+  .projects-border {
+    border: none;
+  }
+  .text {
+    font-size: 90%;
+  }
+  .card-button {
+    font-size: 90%;
+  }
 }
