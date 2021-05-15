@@ -1,5 +1,54 @@
-#contact {
+#Contact {
   display: flex;
-  width: 100vw;
   padding: 10vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--background-color2);
+  transition: all 0.3s linear;
+}
+.contact-form {
+  border-style: double;
+  border-color: var(--background-color);
+  border-width: 30px;
+  background-color: var(--background-color2);
+  transition: all 0.3s linear;
+  color: black;
+  padding: 5% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-div,
+.contact-heading {
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: none;
+}
+
+.Contact-input,
+.contact-message,
+.contact-button {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  max-width: 100%;
+  background: var(--background-color);
+  border: none;
+  color: var(--text-color);
+  padding: 10px;
+  transition: all 0.3s linear;
+}
+
+.contact-heading {
+  text-transform: uppercase;
+  color: var(--text-detail);
+}
+
+.contact-button:hover {
+  color: var(--text-detail);
 }

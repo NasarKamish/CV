@@ -67,6 +67,7 @@
   padding: 3%;
   background-color: var(--background-color2);
   color: var(--text-color);
+  font-weight: 600;
   transition: all 0.3s linear;
   border: none;
 }

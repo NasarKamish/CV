@@ -1,7 +1,7 @@
 :root {
   --background-color: white;
   --text-color: black;
-  --text-detail: blue;
+  --text-detail: navy;
   --background-color2: rgb(228, 228, 228);
 }
 
@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -40,6 +41,7 @@ body.Dark-Theme {
   text-transform: uppercase;
   gap: 20px;
   transition: all 0.3s linear;
+  z-index: 900;
 }
 
 .navbar-links.active {

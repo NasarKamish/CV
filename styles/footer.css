@@ -4,4 +4,10 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1%;
+  transition: all 0.3s linear;
+}
+
+.foot-icon {
+  color: var(--text-detail);
+  transition: all 0.3s linear;
 }
