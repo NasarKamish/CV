@@ -73,6 +73,25 @@
   width: 100%;
 }
 
+.test-head {
+  color: var(--text-detail);
+  font-size: 40px;
+  transition: all 0.3s linear;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: double;
+  border-width: 50px;
+  border-color: var(--background-color);
+  transition: all 0.3s linear;
+}
+
 @media (max-width: 1400px) {
   .Testimonial-border {
     border: none;

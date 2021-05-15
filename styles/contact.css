@@ -1,29 +1,66 @@
 #Contact {
   display: flex;
-  padding: 10vw;
+  padding: 10%;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   background-color: var(--background-color2);
   transition: all 0.3s linear;
 }
+
+.contact-border {
+  padding: 5%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: double;
+  border-width: 50px;
+  border-color: var(--background-color);
+  transition: all 0.3s linear;
+  margin: 5%;
+}
+
+.contact-big-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.contact-head {
+  color: var(--text-detail);
+  font-size: 40px;
+  transition: all 0.3s linear;
+  margin-bottom: 2%;
+}
+
 .contact-form {
+  padding: 5%;
+  width: 40%;
   border-style: double;
   border-color: var(--background-color);
-  border-width: 30px;
+  border-width: 20%;
   background-color: var(--background-color2);
   transition: all 0.3s linear;
-  color: black;
-  padding: 5% 10%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 60vh;
 }
 
 .contact-div,
 .contact-heading {
-  margin-bottom: 20px;
+  margin-bottom: 10%;
+}
+
+.contact-button {
+  margin-bottom: 10%;
 }
 
 .contact-info {
@@ -35,8 +72,10 @@
 .contact-button {
   display: flex;
   justify-content: center;
-  min-width: 100%;
-  max-width: 100%;
+  align-self: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
   background: var(--background-color);
   border: none;
   color: var(--text-color);
@@ -47,8 +86,87 @@
 .contact-heading {
   text-transform: uppercase;
   color: var(--text-detail);
+  transition: all 0.3s linear;
 }
 
 .contact-button:hover {
   color: var(--text-detail);
+}
+
+.c-d-border {
+  padding: 5%;
+  width: 40%;
+  border-style: double;
+  border-color: var(--background-color);
+  border-width: 20%;
+  background-color: var(--background-color2);
+  transition: all 0.3s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5%;
+  height: 60vh;
+}
+
+.c-d-head {
+  text-transform: uppercase;
+  color: var(--text-detail);
+  transition: all 0.3s linear;
+}
+
+.c-d-details {
+  display: flex;
+  margin-top: 10%;
+  flex-direction: column;
+}
+
+.c-d-phone,
+.c-d-email {
+  display: flex;
+  color: var(--text-color);
+  margin-bottom: 10%;
+  transition: all 0.3s linear;
+}
+
+.c-d-phone-i,
+.c-d-email-i {
+  font-size: 30px;
+  color: var(--text-detail);
+  margin-right: 5%;
+  transition: all 0.3s linear;
+}
+
+.c-d-icons {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.c-d-git,
+.c-d-linked {
+  color: var(--text-detail);
+  transition: all 0.3s linear;
+}
+
+.c-d-icons-p {
+  margin: 10%;
+}
+
+@media (max-width: 1300px) {
+  .contact-border {
+    border: none;
+  }
+
+  .contact-form {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .c-d-border {
+    width: 100%;
+    margin: 0;
+    margin-top: 5%;
+  }
 }
