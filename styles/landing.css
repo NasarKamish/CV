@@ -20,6 +20,10 @@
   transition: all 0.3s linear;
 }
 
+.land-br {
+  display: none;
+}
+
 .land-head {
   font-size: 70px;
   font-weight: 600;
@@ -42,5 +46,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .land-br {
+    display: flex;
   }
 }

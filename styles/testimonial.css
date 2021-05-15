@@ -72,3 +72,14 @@
 .test-img {
   width: 100%;
 }
+
+@media (max-width: 1400px) {
+  .Testimonial-border {
+    border: none;
+    margin: 0%;
+    padding: 0%;
+  }
+  .test-card {
+    width: 100%;
+  }
+}
