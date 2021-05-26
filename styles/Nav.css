@@ -2,6 +2,8 @@
   --background-color: white;
   --text-color: black;
   --text-detail: navy;
+  --text-nav: white;
+  --text-nav-detail: black;
   --background-color2: rgb(228, 228, 228);
 }
 
@@ -22,6 +24,8 @@ body.Dark-Theme {
   --background-color: black;
   --text-color: white;
   --text-detail: red;
+  --text-nav: black;
+  --text-nav-detail: white;
   --background-color2: rgb(32, 32, 32);
 }
 
@@ -56,24 +60,24 @@ body.Dark-Theme {
   outline: none;
   padding-right: 10px;
   padding-left: 10px;
-  color: var(--text-color);
+  color: var(--text-detail);
   transition: all 0.3s linear;
 }
 
 .navbar-button:hover {
   background-color: var(--background-color2);
-  color: var(--text-detail);
+  color: var(--text-color);
 }
 
 .navbar-anchor {
-  color: var(--text-color);
+  color: var(--text-nav);
   text-decoration: none;
   padding: 10px;
   transition: all 0.3s linear;
 }
 
 .navbar-anchor:hover {
-  color: var(--background-color);
+  color: var(--text-nav-detail);
 }
 
 @media (max-width: 600px) {

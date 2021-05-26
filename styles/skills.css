@@ -115,6 +115,7 @@
 .skills-content {
   display: flex;
   margin-bottom: 10px;
+  align-items: flex-start;
 }
 
 @media (max-width: 550px) {
