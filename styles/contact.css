@@ -77,7 +77,8 @@
   margin-left: 5%;
   margin-right: 5%;
   background: var(--background-color);
-  border: none;
+  border: double;
+  border-color: var(--background-color);
   color: var(--text-color);
   padding: 10px;
   transition: all 0.3s linear;
@@ -91,6 +92,9 @@
 
 .contact-button:hover {
   color: var(--text-detail);
+  background-color: var(--background-color2);
+  border-color: var(--text-detail);
+  box-shadow: 3px 3px 7px var(--text-detail), -3px -3px 7px var(--text-detail);
 }
 
 .c-d-border {

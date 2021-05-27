@@ -181,11 +181,16 @@
   margin-top: 1%;
   background-color: var(--background-color2);
   font-weight: 600;
+  border-style: double;
+  border-color: var(--background-color);
   transition: all 0.3s linear;
 }
 
 .card-button:hover {
   color: var(--text-detail);
+  background-color: var(--background-color2);
+  border-color: var(--text-detail);
+  box-shadow: 3px 3px 7px var(--text-detail), -3px -3px 7px var(--text-detail);
 }
 
 @media (max-width: 1400px) {
@@ -206,5 +211,8 @@
   .html-card {
     width: 90%;
     height: 30vh;
+  }
+  .overlay {
+    opacity: 0.8;
   }
 }
