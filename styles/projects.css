@@ -194,7 +194,7 @@
   box-shadow: 3px 3px 7px var(--text-detail), -3px -3px 7px var(--text-detail);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
   .projects-border {
     border: none;
   }
@@ -215,5 +215,14 @@
   }
   .overlay {
     opacity: 0.8;
+  }
+}
+
+@media (max-height: 500px) {
+  .py-card {
+    min-height: 60vh;
+  }
+  .html-card {
+    min-height: 50vh;
   }
 }
