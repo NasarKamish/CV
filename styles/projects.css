@@ -178,11 +178,12 @@
 .card-button {
   color: var(--text-color);
   padding: 10%;
+  min-width: 5vw;
   margin-top: 1%;
   background-color: var(--background-color2);
   font-weight: 600;
   border-style: double;
-  border-color: var(--background-color);
+  border-color: var(--text-color);
   transition: all 0.3s linear;
 }
 
