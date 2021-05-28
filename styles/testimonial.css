@@ -55,7 +55,7 @@
 
 .test-card {
   background-color: var(--background-color);
-  width: 25%;
+  width: 100%;
   padding: 5%;
   margin: 5%;
   border-color: var(--background-color2);
@@ -84,8 +84,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
   border: double;
   border-width: 50px;
   border-color: var(--background-color);
@@ -97,9 +97,6 @@
     border: none;
     margin: 0%;
     padding: 0%;
-  }
-  .test-card {
-    width: 100%;
   }
   .card-container {
     margin: 0%;

@@ -194,7 +194,7 @@
   box-shadow: 3px 3px 7px var(--text-detail), -3px -3px 7px var(--text-detail);
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 800px) {
   .projects-border {
     border: none;
   }
