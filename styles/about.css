@@ -80,7 +80,6 @@
   color: var(--text-detail);
   background-color: var(--background-color);
   border-color: var(--text-detail);
-  box-shadow: 3px 3px 7px var(--text-detail), -3px -3px 7px var(--text-detail);
 }
 
 .About-detail {
