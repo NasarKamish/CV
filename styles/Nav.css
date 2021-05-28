@@ -43,7 +43,7 @@ body.Dark-Theme {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  gap: 20px;
+  gap: 15px;
   transition: all 0.3s linear;
   z-index: 900;
 }
@@ -55,18 +55,19 @@ body.Dark-Theme {
 .navbar-button {
   z-index: 200;
   font-size: 30px;
+  font-weight: 1000;
   background: none;
   border: none;
   outline: none;
   padding-right: 10px;
   padding-left: 10px;
-  color: var(--text-detail);
+  color: var(--text-color);
   transition: all 0.3s linear;
 }
 
 .navbar-button:hover {
   background-color: var(--background-color2);
-  color: var(--text-color);
+  color: var(--text-detail);
 }
 
 .navbar-anchor {
@@ -83,5 +84,14 @@ body.Dark-Theme {
 @media (max-width: 600px) {
   .navbar-button {
     font-size: 20px;
+  }
+}
+
+@media (max-height: 900px) {
+  .navbar-button {
+    font-size: 20px;
+  }
+  .head {
+    height: 9.5vh;
   }
 }
