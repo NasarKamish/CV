@@ -11,3 +11,10 @@ footer {
   color: var(--text-detail);
   transition: all 0.3s linear;
 }
+
+@media (max-width: 800px) {
+  footer {
+    padding-top: 0%;
+    padding-bottom: 5%;
+  }
+}
