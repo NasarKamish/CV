@@ -158,7 +158,8 @@
 }
 
 .c-d-git,
-.c-d-linked {
+.c-d-linked,
+.c-d-code {
   color: var(--text-detail);
   transition: all 0.3s linear;
 }
