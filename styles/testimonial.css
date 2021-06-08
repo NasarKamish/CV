@@ -63,10 +63,18 @@
   border-width: 10%;
   border-radius: 2%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   transition: all 0.3s linear;
+}
+
+.testcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 5%;
+  width: 70%;
 }
 
 .test-img {
@@ -108,7 +116,13 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1000px) {
+  .test-card {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
   #Testimonials {
     padding: 0;
   }
