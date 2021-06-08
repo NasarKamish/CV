@@ -1,6 +1,6 @@
 #Contact {
   display: flex;
-  padding: 5%;
+  padding: 10%;
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -20,7 +20,7 @@
   border-width: 50px;
   border-color: var(--background-color);
   transition: all 0.3s linear;
-  margin: 5%;
+  margin: 0%;
 }
 
 .contact-big-container {
