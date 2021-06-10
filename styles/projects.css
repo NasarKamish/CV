@@ -215,11 +215,15 @@
   .overlay {
     opacity: 0.8;
   }
+  .card-button {
+    padding: 20%;
+  }
 }
 
 @media (max-height: 500px) {
   .py-card {
     min-height: 60vh;
+    max-height: 80vh;
   }
   .html-card {
     min-height: 50vh;
