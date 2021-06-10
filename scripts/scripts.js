@@ -22,6 +22,4 @@ Theme.addEventListener("click", function () {
       icon.className = "far fa-moon";
     }
   }, 300);
-
-  // time();
 });
