@@ -15,9 +15,13 @@ let icon = document.querySelector(".fa-moon");
 Theme.addEventListener("click", function () {
   document.body.classList.toggle("Dark-Theme");
 
-  if (icon.className === "far fa-moon") {
-    icon.className = "far fa-sun";
-  } else if (icon.className === "far fa-sun") {
-    icon.className = "far fa-moon";
-  }
+  let time = setTimeout(function () {
+    if (icon.className === "far fa-moon") {
+      icon.className = "far fa-sun";
+    } else if (icon.className === "far fa-sun") {
+      icon.className = "far fa-moon";
+    }
+  }, 300);
+
+  // time();
 });

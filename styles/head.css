@@ -43,6 +43,10 @@
   background-color: var(--background-color2);
 }
 
+.far {
+  transition: all 0.3s linear;
+}
+
 @media (max-width: 600px) {
   .head {
     height: 7vh;
