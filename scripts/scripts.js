@@ -17,8 +17,8 @@ Theme.addEventListener("click", function () {
 
   let iconDelay = setTimeout(function () {
     if (icon.className === "far fa-moon") {
-      icon.className = "far fa-sun";
-    } else if (icon.className === "far fa-sun") {
+      icon.className = "fas fa-bahai";
+    } else if (icon.className === "fas fa-bahai") {
       icon.className = "far fa-moon";
     }
   }, 300);
