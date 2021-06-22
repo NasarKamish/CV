@@ -219,6 +219,9 @@
 }
 
 @media (max-width: 1300px) {
+  .project-filters {
+    display: none;
+  }
   .projects-border {
     border: none;
   }
