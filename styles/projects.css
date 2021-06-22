@@ -34,11 +34,14 @@
   margin: 1%;
   color: var(--text-color);
   border: none;
+  background-color: var(--background-color2);
+  transition: all 0.3s linear;
+}
+
+.filter-all {
   border-bottom: solid;
   border-top: solid;
   border-color: var(--text-detail);
-  background-color: var(--background-color2);
-  transition: all 0.3s linear;
 }
 
 .projects-head,
