@@ -30,6 +30,11 @@ Theme.addEventListener("click", function () {
 // Filter buttons
 
 function borderclick(button) {
+  let pyContainer = document.querySelector(".py-container");
+  let pyHead = document.querySelector(".python-head");
+  let htmlContainer = document.querySelector(".Html-container");
+  let htmlHead = document.querySelector(".Html-head");
+
   if (button == "all") {
     let BTN = document.querySelector(".filter-all");
     BTN.style.borderBottom = "solid";
@@ -40,7 +45,13 @@ function borderclick(button) {
     BTN.style.border = "none";
     BTN = document.querySelector(".filter-html");
     BTN.style.border = "none";
+
+    pyContainer.style.display = "flex";
+    pyHead.style.display = "flex";
+    htmlContainer.style.display = "flex";
+    htmlHead.style.display = "flex";
   }
+
   if (button == "python") {
     let BTN = document.querySelector(".filter-python");
     BTN.style.borderBottom = "Solid";
@@ -51,7 +62,13 @@ function borderclick(button) {
     BTN.style.border = "none";
     BTN = document.querySelector(".filter-html");
     BTN.style.border = "none";
+
+    pyContainer.style.display = "flex";
+    pyHead.style.display = "flex";
+    htmlContainer.style.display = "none";
+    htmlHead.style.display = "none";
   }
+
   if (button == "html") {
     let BTN = document.querySelector(".filter-html");
     BTN.style.borderBottom = "Solid";
@@ -62,5 +79,10 @@ function borderclick(button) {
     BTN.style.border = "none";
     BTN = document.querySelector(".filter-python");
     BTN.style.border = "none";
+
+    pyContainer.style.display = "none";
+    pyHead.style.display = "none";
+    htmlContainer.style.display = "flex";
+    htmlHead.style.display = "flex";
   }
 }
