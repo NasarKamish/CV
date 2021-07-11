@@ -70,6 +70,9 @@
   margin: 5%;
   flex-wrap: wrap;
   transition: all 0.3s linear;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 .py-card:hover .overlay {
@@ -86,16 +89,10 @@
 
 .Temp-Converter-p {
   background-image: url(../images/Temp-conver.png);
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
 }
 
 .Adding-2-numbers-p {
   background-image: url(../images/Adding-2-numbers.png);
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
 }
 
 /* Html */
@@ -144,34 +141,25 @@
   position: relative;
   margin: 5%;
   transition: all 0.3s linear;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 .contact-form-p {
   background-image: url(../images/Contact-form.png);
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
 }
 
 .my-projects-p {
   background-image: url(../images/Projects.png);
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
 }
 
 .owl-carousel-p {
   background-image: url(../images/Testimonials.png);
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
 }
 
 .timeline-p {
   background-image: url(../images/Timeline.png);
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
 }
 
 .card-head {
