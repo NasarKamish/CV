@@ -44,6 +44,27 @@ let html_projects = [
     git: "https://github.com/NasarKamish/Timeline",
     live: "https://gifted-yonath-0a9fd1.netlify.app/",
   },
+  {
+    class: "rainbow-s-p",
+    head: "Rainbow Squares",
+    discription: "This is a rainbow square animation",
+    git: "https://github.com/NasarKamish/Square_Rainbow_Background",
+    live: "https://kamish-rainbow-background.netlify.app/",
+  },
+  {
+    class: "drop-down-p",
+    head: "Drop down",
+    discription: "This is a drop down animation",
+    git: "https://github.com/NasarKamish/Rainbow-Drop-Effect",
+    live: "https://trusting-brown-cf0c60.netlify.app/",
+  },
+  {
+    class: "poke-dex-p",
+    head: "Poke-dex",
+    discription: "This is a poke-dex that uses a pokemon api",
+    git: "https://github.com/NasarKamish/PokeDex",
+    live: "poke-dex-nasar-kamish.netlify.app",
+  },
 ];
 
 // Python cards

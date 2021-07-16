@@ -162,6 +162,18 @@
   background-image: url(../images/Timeline.png);
 }
 
+.rainbow-s-p {
+  background-image: url(../images/Rainbow\ Squares.png);
+}
+
+.drop-down-p {
+  background-image: url(../images/Drop\ down.png);
+}
+
+.poke-dex-p {
+  background-image: url(../images/Poke-Dex.png);
+}
+
 .card-head {
   color: var(--text-detail);
   transition: all 0.3s linear;
