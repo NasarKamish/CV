@@ -63,7 +63,7 @@ let html_projects = [
     head: "Poke-dex",
     discription: "This is a poke-dex that uses a pokemon api",
     git: "https://github.com/NasarKamish/PokeDex",
-    live: "poke-dex-nasar-kamish.netlify.app",
+    live: "https://poke-dex-nasar-kamish.netlify.app/",
   },
 ];
 
