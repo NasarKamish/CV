@@ -153,4 +153,11 @@
   .About-border {
     border: none;
   }
+  .About-discription {
+    flex-direction: column;
+  }
+  .About-btn {
+    height: 100%;
+    margin-bottom: 10%;
+  }
 }

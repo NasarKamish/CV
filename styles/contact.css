@@ -191,3 +191,23 @@
     min-height: 95vh;
   }
 }
+
+@media (max-width: 600px) {
+  .c-d-phone,
+  .c-d-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .c-d-phone-d,
+  .c-d-email-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .c-d-head {
+    text-align: center;
+  }
+}
