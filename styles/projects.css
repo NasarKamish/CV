@@ -178,6 +178,7 @@
   color: var(--text-detail);
   transition: all 0.3s linear;
   margin-bottom: 5%;
+  text-align: center;
 }
 
 .card-discription {
