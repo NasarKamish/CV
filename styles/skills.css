@@ -52,12 +52,15 @@
   color: var(--text-detail);
 }
 
-.soft-skills-head {
+.soft-skills-head,
+.tech-skills-head,
+.code-skills-head {
   color: var(--text-detail);
   font-size: 30px;
   transition: all 0.3s linear;
   margin-top: 2%;
   margin-bottom: 1%;
+  text-align: center;
 }
 
 .soft-skills-list {
@@ -72,15 +75,6 @@
   color: var(--text-color);
   transition: all 0.3s linear;
   margin-bottom: 3%;
-}
-
-.tech-skills-head {
-  color: var(--text-detail);
-  font-size: 30px;
-  transition: all 0.3s linear;
-  margin-top: 2%;
-  margin-bottom: 1%;
-  text-align: center;
 }
 
 .tech-skills-list {
