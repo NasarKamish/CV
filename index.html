@@ -46,9 +46,23 @@
         </li>
       </ul>
     </nav>
+    <!-- Theme changer -->
+    <div class="theme">
+      <h3 class="theme-head">Themes</h3>
+      <div class="colors">
+        <div onclick="colorChange('red')" class="red color">red</div>
+        <div onclick="colorChange('blue')" class="blue color">blue</div>
+        <div onclick="colorChange('green')" class="green color">green</div>
+        <div onclick="colorChange('yellow')" class="yellow color">yellow</div>
+        <div onclick="colorChange('lime')" class="lime color">lime</div>
+        <div onclick="colorChange('violet')" class="violet color">violet</div>
+      </div>
+    </div>
 
     <div class="head">
-      <button class="Switch"><i id="icon" class="far fa-moon"></i></button>
+      <button onclick="toggleTheme()" class="Switch">
+        <i id="icon" class="far fa-moon"></i>
+      </button>
       <div class="name"><span class="name-span">Nasar</span> Kamish</div>
       <button class="navbar-button" onclick="toggleNavbar()">
         <i class="fas fa-bars"></i>
@@ -397,6 +411,7 @@
       </p>
     </footer>
 
+    <!-- <script src="./scripts/skills.js"></script> -->
     <script src="./scripts/testimonials.js"></script>
     <script src="./scripts/navbar.js"></script>
     <script src="./scripts/projects.js"></script>

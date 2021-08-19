@@ -7,13 +7,13 @@ let icon = document.querySelector(".fa-moon");
 Theme.addEventListener("click", function () {
   document.body.classList.toggle("Dark-Theme");
 
-  let iconDelay = setTimeout(function () {
-    if (icon.className === "far fa-moon") {
-      icon.className = "fas fa-bahai";
-    } else if (icon.className === "fas fa-bahai") {
-      icon.className = "far fa-moon";
-    }
-  }, 300);
+  // let iconDelay = setTimeout(function () {
+  //   if (icon.className === "far fa-moon") {
+  //     icon.className = "fas fa-bahai";
+  //   } else if (icon.className === "fas fa-bahai") {
+  //     icon.className = "far fa-moon";
+  //   }
+  // }, 300);
 });
 
 // Filter buttons
