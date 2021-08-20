@@ -41,6 +41,12 @@ body {
   top: 0;
 }
 
+.theme-head {
+  color: var(--background-color);
+  font-size: 40px;
+  transition: all 0.3s linear;
+}
+
 .colors {
   display: flex;
   flex-direction: row;
@@ -55,8 +61,8 @@ body {
   justify-content: center;
   align-items: center;
   /* padding: 1%; */
-  width: 10vw;
-  height: 10vh;
+  width: 100px;
+  height: 100px;
   margin: 5%;
   border: solid var(--background-color) 5px;
 }
@@ -69,8 +75,8 @@ body {
   background-color: blue;
 }
 
-.green {
-  background-color: green;
+.aqua {
+  background-color: aqua;
 }
 
 .yellow {
@@ -83,6 +89,10 @@ body {
 
 .violet {
   background-color: violet;
+}
+
+.deeppink {
+  background-color: deeppink;
 }
 
 /* navbar */
