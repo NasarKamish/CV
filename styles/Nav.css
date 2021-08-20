@@ -3,7 +3,7 @@
   --text-color: white;
   --text-detail: red;
   --text-nav: black;
-  --text-nav-detail: white;
+  --text-nav-detail: rgb(32, 32, 32);
   --background-color2: rgb(32, 32, 32);
 }
 
@@ -140,11 +140,13 @@ body {
   color: var(--text-nav);
   text-decoration: none;
   padding: 10px;
+  font-weight: normal;
   transition: all 0.3s linear;
 }
 
 .navbar-anchor:hover {
   color: var(--text-nav-detail);
+  font-weight: bold;
 }
 
 @media (max-width: 600px) {
