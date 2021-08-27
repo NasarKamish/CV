@@ -24,7 +24,7 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  top: -200%;
+  top: -100%;
   background-color: var(--text-detail);
   /* border-bottom: solid var(--text-detail) 10px; */
   color: var(--backgound-color);
