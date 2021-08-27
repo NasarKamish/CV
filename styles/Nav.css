@@ -24,7 +24,7 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  top: -100%;
+  top: -150%;
   background-color: var(--text-detail);
   /* border-bottom: solid var(--text-detail) 10px; */
   color: var(--backgound-color);
@@ -103,7 +103,7 @@ body {
   flex-direction: column;
   background: var(--text-detail);
   position: fixed;
-  top: -100%;
+  top: -150%;
   width: 100vw;
   height: 100vh;
   justify-content: center;
