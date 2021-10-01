@@ -65,7 +65,7 @@
 
 .py-card {
   width: 30%;
-  height: 20vh;
+  height: 30vh;
   position: relative;
   margin: 5%;
   flex-wrap: wrap;
@@ -137,7 +137,7 @@
 
 .html-card {
   width: 30%;
-  height: 20vh;
+  height: 30vh;
   position: relative;
   margin: 5%;
   transition: all 0.3s linear;
