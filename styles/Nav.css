@@ -18,6 +18,23 @@ body {
   font-family: sans-serif;
 }
 
+.loader {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border: 10px solid black;
+  border-top-color: var(--background-color);
+  border-left-color: var(--text-detail);
+  border-block-color: var(--background-color);
+  border-right-color: var(--text-detail);
+  border-radius: 100%;
+}
+
+.loader.hide {
+  display: none;
+}
+
 /* Theme */
 
 .theme {
