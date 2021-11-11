@@ -1,6 +1,8 @@
 let themeCounter = 0;
 let navCounter = 0;
 
+// Load Container
+
 window.addEventListener("load", () => {
   document.querySelector(".loader-container").classList.add("hide");
 });
@@ -39,6 +41,14 @@ function toggleTheme() {
 
 function colorChange(color) {
   console.log(color);
+  window.localStorage.setItem("ThemeColor", color);
   document.documentElement.style.setProperty("--text-detail", color);
   toggleTheme();
+}
+
+if (window.localStorage.getItem("ThemeColor")) {
+  document.documentElement.style.setProperty(
+    "--text-detail",
+    window.localStorage.getItem("ThemeColor")
+  );
 }
