@@ -18,13 +18,25 @@ body {
   font-family: sans-serif;
 }
 
-.loader {
-  display: flex;
+/* Loader */
+
+.loader-container {
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000000;
+}
+
+.loader {
+  display: block;
   width: 50px;
   height: 50px;
-  top: 50%;
-  left: 50%;
   animation: Spin 5s linear infinite;
   border: 10px solid black;
   border-top-color: var(--background-color);
@@ -34,6 +46,10 @@ body {
   border-radius: 100%;
 }
 
+.loader-container.hide {
+  display: none;
+}
+
 @keyframes Spin {
   0% {
     transform: rotate(0deg);
@@ -41,10 +57,6 @@ body {
   100% {
     transform: rotate(360deg);
   }
-}
-
-.loader.hide {
-  display: none;
 }
 
 /* Theme */

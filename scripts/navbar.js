@@ -2,7 +2,7 @@ let themeCounter = 0;
 let navCounter = 0;
 
 window.addEventListener("load", () => {
-  document.querySelector(".loader").classList.add("hide");
+  document.querySelector(".loader-container").classList.add("hide");
 });
 
 // Navbar and theme
