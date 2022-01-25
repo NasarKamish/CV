@@ -52,3 +52,43 @@ if (window.localStorage.getItem("ThemeColor")) {
     window.localStorage.getItem("ThemeColor")
   );
 }
+
+// // // // // // POP NAVBAR // // // // // //
+
+function popNavbarLinks() {
+  let navbarLinks = [
+    { name: "Home", link: "Landing" },
+    { name: "About", link: "About" },
+    { name: "Experience", link: "Experience" },
+    { name: "Skills", link: "Skills" },
+    { name: "Projects", link: "Projects" },
+    { name: "Testimonials", link: "Testimonials" },
+    { name: "Contact", link: "Contact" },
+  ];
+  let navContainer = document.querySelector(".navbar-links");
+  navContainer.innerHTML = ``;
+  navbarLinks.forEach((navbarLink) => {
+    navContainer.innerHTML += `
+    <li class="navbar-link">
+      <a href="#${navbarLink.link}" class="navbar-anchor">${navbarLink.name}</a>
+    </li>
+    `;
+  });
+}
+
+popNavbarLinks();
+
+// // // // // // POP COLORS // // // // // //
+
+function popColorChanger() {
+  let colors = ["red", "blue", "aqua", "lime", "yellow", "deeppink"];
+  let colorContainer = document.querySelector(".colors");
+  colorContainer.innerHTML = ``;
+  colors.forEach((color) => {
+    colorContainer.innerHTML += `
+    <div onclick="colorChange('${color}')" class="${color} color"></div>
+    `;
+  });
+}
+
+popColorChanger();
