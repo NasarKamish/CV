@@ -20,6 +20,7 @@ let codeSkills = [
   "fab fa-js-square",
   "fab fa-node-js",
   "fab fa-vuejs",
+  "fab fa-react",
 ];
 
 let skillsContainer = document.querySelector(".Skills-container");

@@ -124,6 +124,9 @@
 
 @media (max-width: 500px) {
   #Testimonials {
-    padding: 0;
+    padding: 10%;
+  }
+  .Testimonial-border {
+    padding: 5%;
   }
 }
