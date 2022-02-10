@@ -39,7 +39,6 @@
   align-items: center;
   justify-content: center;
   transition: all 0.3s linear;
-  z-index: 100%;
 }
 
 .card-icon {
