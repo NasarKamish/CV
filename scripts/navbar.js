@@ -34,7 +34,6 @@ function toggleTheme() {
 }
 
 function colorChange(color) {
-  console.log(color);
   window.localStorage.setItem("ThemeColor", color);
   document.documentElement.style.setProperty("--text-detail", color);
   toggleTheme();
