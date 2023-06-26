@@ -25,7 +25,7 @@ let coding = [
   {
     education: "Coding Course",
     venu: "Life Choices",
-    date: "2021 - Present",
+    date: "2021 - 2022",
     Languages: [
       "Python",
       "HTML",
@@ -37,6 +37,15 @@ let coding = [
       "MongoDB",
       "Vue.js",
     ],
+  },
+];
+
+let work = [
+  {
+    company: "Gmaven",
+    jobtitle: "Intern Data Cleaner",
+    duration: "2022 - Present",
+    tasks: ["Capturing Data", "Validating Data"],
   },
 ];
 
@@ -111,6 +120,46 @@ function popExperience() {
 
     codes.Languages.forEach((Language) => {
       code += `<p class="xp-l-content">${Language}</p>`;
+    });
+    code += `
+                </div>
+             </div>
+           </li>
+         </ul>
+       </div>
+    `;
+  });
+
+  code += `
+    <p class="Xp-icons">
+        Work<i class="fas fa-solid fa-briefcase Xp-icon"></i>
+    </p>`;
+
+  work.forEach((works) => {
+    code += `
+        <div class="Ed-content">
+            <ul class="Xp-lists">
+              <li class="Xp-list">
+                <div class="xp-details">
+                  <div class="xp-l-discription">
+                    <p class="xp-l-head">Education:</p>
+                    <p class="xp-l-content">${works.company}</p>
+                  </div>
+                  <div class="xp-l-discription">
+                    <p class="xp-l-head">Venu:</p>
+                    <p class="xp-l-content">${works.jobtitle}</p>
+                  </div>
+                  <div class="xp-l-discription">
+                    <p class="xp-l-head">Date:</p>
+                    <p class="xp-l-content">${works.duration}</p>
+                  </div>
+                </div>
+                <div class="xp-discription">
+                    <div class="xp-l-discription">
+                        <p class="xp-l-head">Tasks:</p>`;
+
+    works.tasks.forEach((task) => {
+      code += `<p class="xp-l-content">${task}</p>`;
     });
     code += `
                 </div>
