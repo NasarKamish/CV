@@ -44,7 +44,7 @@ let work = [
   {
     company: "Gmaven",
     jobtitle: "Intern Data Cleaner",
-    duration: "2022 - Present",
+    duration: "2022 - 2022",
     tasks: ["Capturing Data", "Validating Data"],
   },
 ];
