@@ -109,8 +109,14 @@
 
 .xp-l-discription {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-bottom: 5%;
+}
+
+.xp-discription > .xp-l-discription {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 .xp-l-head {
